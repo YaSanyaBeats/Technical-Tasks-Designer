@@ -3,6 +3,10 @@ import './App.css'
 import { ThemeProvider, createTheme, responsiveFontSizes  } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Montserrat from './fonts/Montserrat.ttf';
+import Stack from '@mui/material/Stack';
+import Logo from './components/Logo/Logo';
+import Progress from './components/Progress/Progress';
+import Content from './components/Content/Content';
 
 let darkTheme = createTheme({
   palette: {
@@ -32,7 +36,11 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <main>Whereas disregard and contempt for human rights have resulted</main>
+      <Stack spacing={2}>
+        <Logo />
+        <Progress />
+        <Content />
+      </Stack>
     </ThemeProvider>
   )
 }
