@@ -1,0 +1,28 @@
+.title {
+    margin: 0;
+}
+
+.logo {
+    
+    
+}
+
+.logoWrapper {
+    display: inline-flex;
+    transform-origin: 46% 2px;
+    margin-top: -17px;
+    /* transition: transform .1s linear; */
+    /* animation: rotating 5s infinite; */
+}
+
+/* @keyframes rotating {
+    from {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    to {
+        transform: rotate(-5deg);
+    }
+} */
